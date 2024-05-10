@@ -24,7 +24,7 @@ const Todo = ({
       setTodo(response.data);
     }
     getData();
-  }, []);
+  }, [id]);
 
   async function deleteHandler(id: string) {
     // const id = e.target.id

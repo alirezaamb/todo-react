@@ -29,7 +29,7 @@ export function ModalTodo({
       setTodo(response.data);
     }
     getData();
-  }, []);
+  });
 
   return (
     <>
